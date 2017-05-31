@@ -1,0 +1,16 @@
+<div class="weatherWidget">
+    {{#unless partials.weatherContext.locations}}
+        <div>something has disappered</div>
+    {{/unless}}
+    {{#each partials.weatherContext.locations}}
+        <div class="location">
+            <h3>{{name}}</h3>
+            <a href="{{forecastUrl}}">
+                <img src="{{iconUrl}}" alt="{{weather}}">
+                {{weather}},{{temp}}
+            </a>
+        </div>
+    {{/each}}
+    <div>why nothing here</div>
+    <small>Source: <a href="http://www.wunderground.com">Weather Underground</a></small>
+</div>

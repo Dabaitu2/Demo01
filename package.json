@@ -1,0 +1,28 @@
+{
+  "name": "travelsite",
+  "version": "1.0.0",
+  "description": "Demo of Express development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tomokokawase",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "express3-handlebars": "^0.5.2",
+    "io": "^0.1.10",
+    "jquery": "^3.2.1",
+    "jsdom": "^10.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "cookie-parser": "^1.4.3",
+    "express-session": "^1.15.3",
+    "mocha": "^3.2.0",
+    "zombie": "^5.0.5"
+  }
+}
